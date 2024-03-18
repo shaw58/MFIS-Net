@@ -14,7 +14,7 @@ We use [the dataset of 2018 Atrial Segmentation Challenge](http://atriaseg2018.c
 If you want to test MFIS-net on LA.
 ```shell
 cd MFIS-net
-python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnum 8 --gpu 0
+python ./code/test.py
 ```
 ## Acknowledgements
 Our code is origin from ASPP, CBAM. Thanks to these authors for their excellent work.
